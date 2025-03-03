@@ -8,7 +8,7 @@ current_date = str(date.date())
 time =  date.time().strftime("%I:%M:%S")
 
 
-
+# makesure to set envioment variable  to your keys 
 # Nutritionxi API
 APPLICATION_ID = os.environ["APPLICATION_ID"]
 API_KEY =  os.environ["API_KEY"]
